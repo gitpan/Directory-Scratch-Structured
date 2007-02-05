@@ -1,6 +1,6 @@
 ---
 name: Directory-Scratch-Structured
-version: 0.01
+version: 0.02
 author:
   - 'Khemir Nadim ibn Hamouda. <nadim@khemir.net>'
 abstract: "creates temporary files and directories from a structured description\n"
@@ -8,10 +8,11 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
 requires:
-  Data::Compare: 0
   Data::TreeDumper: 0
+  Directory::Scratch: 0
   Readonly: 0
   Sub::Exporter: 0
+  Sub::Install: 0
   Test::Block: 0
   Test::Dependencies: 0
   Test::Distribution: 0
@@ -26,7 +27,7 @@ requires:
 provides:
   Directory::Scratch::Structured:
     file: lib/Directory/Scratch/Structured.pm
-    version: 0.01
+    version: 0.02
 generated_by: Module::Build version 0.2805
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

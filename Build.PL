@@ -205,7 +205,7 @@ my $build = $class->new
 		'Sub::Exporter'     => 0,
 		'Sub::Install'     => 0,
 		'Data::TreeDumper' => 0,
-		'Directory::Scratch' => 0 ;
+		'Directory::Scratch' => 0,
 		
 		'Test::Block' => 0,
 		'Test::Dependencies' => 0,
