@@ -1,2 +1,5 @@
-0,02: 
+0.03
+	CHANGED: removed POD::Spelling and replaced with a Perl::Critic policy
+	
+0.02
 	FIXED: error in Build.PL

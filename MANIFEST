@@ -14,7 +14,6 @@ t/000_distribution.t
 t/000_kwalitee.t
 t/001_0_load.t
 t/001_1_load.t
-t/002_0_pod_spelling.t
 t/002_1_pod.t
 t/002_2_pod_coverage.t
 t/003_perl_critic.t

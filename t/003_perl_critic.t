@@ -18,8 +18,9 @@ use Test::Perl::Critic
 		'CodeLayout::ProhibitParensWithBuiltins',
 		'Documentation::RequirePodAtEnd',
 		'ControlStructures::ProhibitUnlessBlocks',
-		#~ 'CodeLayout::RequireTidyCode',
+		'CodeLayout::RequireTidyCode',
 		'CodeLayout::ProhibitHardTabs',
+		'CodeLayout::ProhibitTrailingWhitespace' ,
 		], 
 		
 	-profile => 't/perlcriticrc' ;
