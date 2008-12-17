@@ -10,7 +10,7 @@ use Sub::Exporter -setup => { exports => [ qw(create_structured_tree), piggyback
 use Sub::Install ;
 
 use vars qw ($VERSION);
-$VERSION  = 0.03;
+$VERSION  = '0.04';
 }
 
 #-------------------------------------------------------------------------------
